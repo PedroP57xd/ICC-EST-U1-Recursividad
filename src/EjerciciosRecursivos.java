@@ -1,5 +1,3 @@
-import java.net.Socket;
-
 public class EjerciciosRecursivos {
     public int fibonacci(int n) {
         if (n <= 1) {
