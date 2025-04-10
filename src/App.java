@@ -5,7 +5,7 @@ public class App {
         // fimo.sumaConsecutivos(5);
 
         EjerciciosRecursivos gP=new EjerciciosRecursivos();
-        gP.getPotencia(7, 3);
+        gP.getPotencia(10, 3);
 
         // int n = 5;
         // int resultadoFinal = factorial(n);
