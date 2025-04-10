@@ -1,8 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        EjerciciosRecursivos fimo = new EjerciciosRecursivos();
-        fimo.fibonacci(5);
-        fimo.sumaConsecutivos(5);
+        // EjerciciosRecursivos fimo = new EjerciciosRecursivos();
+        // fimo.fibonacci(5);
+        // fimo.sumaConsecutivos(5);
+
+        EjerciciosRecursivos gP=new EjerciciosRecursivos();
+        gP.getPotencia(7, 3);
 
         // int n = 5;
         // int resultadoFinal = factorial(n);
