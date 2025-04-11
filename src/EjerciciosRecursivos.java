@@ -42,5 +42,11 @@ public class EjerciciosRecursivos {
         System.out.println(n + " ");
         return printNum(n - 1);
     }
+    public int reverso(int n){
+        if (n==0) {
+            return 0;
+        }
+        
+    }
 
 }
