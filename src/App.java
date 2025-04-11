@@ -4,9 +4,11 @@ public class App {
         // fimo.fibonacci(5);
         // fimo.sumaConsecutivos(5);
 
-        EjerciciosRecursivos gP=new EjerciciosRecursivos();
-        gP.getPotencia(10, 3);
+        // EjerciciosRecursivos gP=new EjerciciosRecursivos();
+        // gP.getPotencia(10, 3);
 
+        EjerciciosRecursivos sDN=new EjerciciosRecursivos();
+        sDN.sumDeDigitosDeUnNuemero(1523);
         // int n = 5;
         // int resultadoFinal = factorial(n);
         // System.out.println("resultado: " + resultadoFinal);

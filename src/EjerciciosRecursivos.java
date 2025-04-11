@@ -25,5 +25,13 @@ public class EjerciciosRecursivos {
         return resultado;
 
     }
+    public int sumDeDigitosDeUnNuemero(int n){
+        if (n<10) {
+            return n;
+        }
+        int ultDigito=n %10;
+        int res=n/10;
+        return sumDeDigitosDeUnNuemero(res)+ultDigito;
+    }
 
 }
