@@ -25,13 +25,22 @@ public class EjerciciosRecursivos {
         return resultado;
 
     }
-    public int sumDeDigitosDeUnNuemero(int n){
-        if (n<10) {
+
+    public int sumDeDigitosDeUnNuemero(int n) {
+        if (n < 10) {
             return n;
         }
-        int ultDigito=n %10;
-        int res=n/10;
-        return sumDeDigitosDeUnNuemero(res)+ultDigito;
+        int ultDigito = n % 10;
+        int res = n / 10;
+        return sumDeDigitosDeUnNuemero(res) + ultDigito;
+    }
+
+    public int printNum(int n) {
+        if (n < 1) {
+            return 0;
+        }
+        System.out.println(n + " ");
+        return printNum(n - 1);
     }
 
 }

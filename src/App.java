@@ -7,8 +7,16 @@ public class App {
         // EjerciciosRecursivos gP=new EjerciciosRecursivos();
         // gP.getPotencia(10, 3);
 
-        EjerciciosRecursivos sDN=new EjerciciosRecursivos();
-        sDN.sumDeDigitosDeUnNuemero(1523);
+        // EjerciciosRecursivos sDN=new EjerciciosRecursivos();
+        // sDN.sumDeDigitosDeUnNuemero(1523);
+
+
+        EjerciciosRecursivos pN=new EjerciciosRecursivos();
+        pN.printNum(5);
+
+
+
+
         // int n = 5;
         // int resultadoFinal = factorial(n);
         // System.out.println("resultado: " + resultadoFinal);
